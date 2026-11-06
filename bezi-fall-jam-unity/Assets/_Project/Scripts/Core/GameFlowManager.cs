@@ -161,20 +161,27 @@ namespace FallIsLife.Core
 
             string sceneName = SceneNames.ForPhase(phase);
             Scene previousScene = loadedPhaseScene;
+            bool hasPreviousScene = previousScene.IsValid() && previousScene.isLoaded;
 
-            AsyncOperation loadOperation = SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Additive);
-            loadOperation.completed += _ =>
+            // Normal Boot flow: another scene (Boot) keeps the game alive, so unload the old phase
+            // first and never show two phases at once. A phase played on its own is the only
+            // loaded scene and cannot be unloaded first, so it is unloaded after the new one loads.
+            bool unloadFirst = hasPreviousScene && SceneManager.sceneCount > 1;
+            if (unloadFirst)
             {
-                Scene loadedScene = SceneManager.GetSceneByName(sceneName);
-                if (loadedScene.IsValid())
-                {
-                    SceneManager.SetActiveScene(loadedScene);
-                    loadedPhaseScene = loadedScene;
-                }
-            };
-            yield return loadOperation;
+                yield return SceneManager.UnloadSceneAsync(previousScene);
+            }
 
-            if (previousScene.IsValid() && previousScene.isLoaded && previousScene != loadedPhaseScene)
+            yield return SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Additive);
+
+            Scene newScene = GetLastLoadedScene(sceneName);
+            if (newScene.IsValid())
+            {
+                SceneManager.SetActiveScene(newScene);
+                loadedPhaseScene = newScene;
+            }
+
+            if (!unloadFirst && hasPreviousScene && previousScene.isLoaded && previousScene != newScene)
             {
                 yield return SceneManager.UnloadSceneAsync(previousScene);
             }
@@ -182,6 +189,23 @@ namespace FallIsLife.Core
             CurrentPhase = phase;
             isLoading = false;
             GameEvents.RaisePhaseChanged(phase);
+        }
+
+        /// <summary>
+        /// Returns the most recently loaded scene with the given name (handles the case where the
+        /// same phase scene is briefly loaded twice, e.g. when a phase reloads itself).
+        /// </summary>
+        private static Scene GetLastLoadedScene(string sceneName)
+        {
+            for (int index = SceneManager.sceneCount - 1; index >= 0; index--)
+            {
+                Scene scene = SceneManager.GetSceneAt(index);
+                if (scene.name == sceneName && scene.isLoaded)
+                {
+                    return scene;
+                }
+            }
+            return default;
         }
 
         /// <summary>

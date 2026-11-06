@@ -1,6 +1,7 @@
 using FallIsLife.Data;
 using UnityEngine;
 using UnityEngine.Rendering;
+using UnityEngine.SceneManagement;
 
 namespace FallIsLife.Core
 {
@@ -18,7 +19,24 @@ namespace FallIsLife.Core
 
         private void OnEnable()
         {
+            SceneManager.activeSceneChanged += HandleActiveSceneChanged;
             ApplyRenderSettings();
+        }
+
+        private void OnDisable()
+        {
+            SceneManager.activeSceneChanged -= HandleActiveSceneChanged;
+        }
+
+        /// <summary>Re-applies this phase's look once its scene becomes the active scene.</summary>
+        private void HandleActiveSceneChanged(Scene previousActiveScene, Scene newActiveScene)
+        {
+            if (newActiveScene != gameObject.scene)
+            {
+                return;
+            }
+            ApplyRenderSettings();
+            ApplyCameraBackgrounds();
         }
 
         private void Start()
