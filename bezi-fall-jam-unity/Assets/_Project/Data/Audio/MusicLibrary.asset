@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 986f03528bc444b60ba240261d3fddf5, type: 3}
   m_Name: MusicLibrary
   m_EditorClassIdentifier: FallIsLife::FallIsLife.Data.MusicLibrary
-  mainMenu: {fileID: 0}
-  routePlanning: {fileID: 0}
-  flight: {fileID: 0}
-  night: {fileID: 0}
-  results: {fileID: 0}
+  mainMenu: {fileID: 8300000, guid: 8f756563c69be4365955e33bc4410081, type: 3}
+  routePlanning: {fileID: 8300000, guid: 8f756563c69be4365955e33bc4410081, type: 3}
+  flight: {fileID: 8300000, guid: 65eb41c147ffa45f1a1138ad425c2e29, type: 3}
+  night: {fileID: 8300000, guid: 8f756563c69be4365955e33bc4410081, type: 3}
+  results: {fileID: 8300000, guid: 8f756563c69be4365955e33bc4410081, type: 3}
