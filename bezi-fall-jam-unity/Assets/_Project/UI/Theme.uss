@@ -1,0 +1,121 @@
+/* Fall is Life shared theme. Palette from GDD §12. */
+:root {
+    --pumpkin: #E07A2F;
+    --maple-red: #B83A2A;
+    --mustard: #E3A936;
+    --harvest-gold: #F2C46B;
+    --moss: #6E7F3A;
+    --lake-teal: #5FB7B0;
+    --soil: #5A4032;
+    --cream-sky: #F4E3C3;
+    --dusk-lavender: #8A7FB5;
+    --night-indigo: #2B2F5A;
+    --charcoal: #2A2A2E;
+    --chinstrap: #F4F1EA;
+    --panel-bg: rgba(43, 47, 90, 0.82);
+    --paper-bg: rgba(244, 227, 195, 0.96);
+}
+
+.hidden { display: none; }
+
+.screen { flex-grow: 1; padding: 32px; }
+.screen--center { align-items: center; justify-content: center; }
+
+.title { font-size: 64px; color: var(--cream-sky); -unity-font-style: bold; -unity-text-align: middle-center; }
+.subtitle { font-size: 26px; color: var(--harvest-gold); -unity-text-align: middle-center; margin-bottom: 24px; }
+.body-text { font-size: 22px; color: var(--chinstrap); }
+.panel { background-color: var(--panel-bg); border-radius: 14px; padding: 20px; }
+
+.button {
+    font-size: 24px;
+    min-width: 220px;
+    height: 56px;
+    margin: 8px;
+    color: var(--chinstrap);
+    background-color: var(--pumpkin);
+    border-width: 0;
+    border-radius: 10px;
+    -unity-font-style: bold;
+}
+.button:hover { background-color: var(--maple-red); }
+.button--small { min-width: 64px; height: 48px; font-size: 22px; }
+.button-row { flex-direction: row; justify-content: center; margin-top: 16px; }
+
+/* Bars */
+.bar { height: 16px; flex-grow: 1; background-color: rgba(0, 0, 0, 0.35); border-radius: 8px; overflow: hidden; min-width: 120px; }
+.bar__fill { height: 100%; width: 50%; background-color: var(--harvest-gold); border-radius: 8px; }
+.bar__fill--food { background-color: var(--mustard); }
+.bar__fill--water { background-color: var(--lake-teal); }
+.bar__fill--progress { background-color: var(--pumpkin); }
+.bar__fill--low { background-color: var(--maple-red); }
+
+/* Pips */
+.pip-row { flex-direction: row; align-items: center; margin-left: 6px; }
+.pip { width: 12px; height: 12px; border-radius: 6px; margin: 0 2px; border-width: 2px; border-color: var(--soil); }
+.pip--filled { background-color: var(--maple-red); border-color: var(--maple-red); }
+
+/* Goose icons */
+.goose-row { flex-direction: row; flex-wrap: wrap; margin: 0 8px; }
+.goose-icon { width: 14px; height: 18px; margin: 1px; background-color: var(--chinstrap); border-radius: 7px; }
+.goose-icon--lost { opacity: 0.25; }
+
+/* Stars */
+.star-row { flex-direction: row; justify-content: center; margin: 12px; }
+.star { width: 44px; height: 44px; margin: 6px; rotate: 45deg; background-color: rgba(0, 0, 0, 0.35); border-radius: 6px; }
+.star--earned { background-color: var(--harvest-gold); }
+
+/* HUD */
+.hud { flex-grow: 1; justify-content: space-between; padding: 18px; }
+.hud__bar { flex-direction: row; align-items: center; justify-content: space-between; background-color: var(--panel-bg); border-radius: 10px; padding: 8px 16px; }
+.hud__row { flex-direction: row; align-items: center; }
+.hud__text { font-size: 20px; color: var(--chinstrap); margin-right: 18px; -unity-font-style: bold; }
+.hud__accent { color: var(--harvest-gold); }
+.hud__warning { position: absolute; top: 40%; left: 30px; font-size: 34px; color: var(--chinstrap); background-color: var(--maple-red); padding: 8px 16px; border-radius: 8px; -unity-font-style: bold; }
+.hud__meter { flex-direction: row; align-items: center; width: 260px; margin-right: 18px; }
+.marker-layer { position: absolute; left: 0; top: 0; right: 0; bottom: 0; }
+.straggler-marker { position: absolute; font-size: 18px; color: var(--chinstrap); background-color: var(--maple-red); padding: 2px 6px; border-radius: 6px; translate: -50% -100%; -unity-font-style: bold; }
+
+/* Pause */
+.overlay { position: absolute; left: 0; top: 0; right: 0; bottom: 0; background-color: rgba(20, 22, 40, 0.7); align-items: center; justify-content: center; }
+
+/* Route planning */
+.planning { flex-grow: 1; flex-direction: row; padding: 24px; }
+.planning__map { width: 34%; background-color: var(--paper-bg); border-radius: 14px; padding: 12px; margin-right: 20px; }
+.planning__main { flex-grow: 1; }
+.carousel { flex-direction: row; justify-content: center; align-items: flex-start; flex-grow: 1; margin-top: 12px; }
+
+.route-map { flex-grow: 1; }
+.route-map__node { align-items: center; translate: -50% -50%; }
+.route-map__dot { width: 16px; height: 16px; border-radius: 8px; background-color: var(--soil); border-width: 2px; border-color: var(--cream-sky); }
+.route-map__label { font-size: 14px; color: var(--soil); -unity-text-align: middle-center; }
+.route-map__node--visited .route-map__dot { background-color: var(--night-indigo); }
+.route-map__node--option .route-map__dot { background-color: var(--pumpkin); width: 20px; height: 20px; border-radius: 10px; }
+.route-map__node--current .route-map__dot { background-color: var(--moss); width: 22px; height: 22px; border-radius: 11px; }
+.route-map__node--selected .route-map__dot { background-color: var(--maple-red); width: 26px; height: 26px; border-radius: 13px; }
+.route-map__node--selected .route-map__label { -unity-font-style: bold; color: var(--maple-red); }
+
+.route-card { width: 320px; margin: 0 10px; background-color: var(--paper-bg); border-radius: 12px; padding: 12px; opacity: 0.75; scale: 0.94 0.94; border-width: 3px; border-color: rgba(0, 0, 0, 0); }
+.route-card--selected { opacity: 1; scale: 1 1; border-color: var(--pumpkin); }
+.route-card__postcard { height: 120px; background-color: var(--lake-teal); border-radius: 8px; padding: 10px; justify-content: flex-end; -unity-background-scale-mode: scale-and-crop; }
+.route-card__title { font-size: 24px; color: var(--chinstrap); -unity-font-style: bold; }
+.route-card__subtitle { font-size: 14px; color: var(--chinstrap); white-space: normal; }
+.route-card__stats { margin-top: 8px; }
+.route-card__row { flex-direction: row; align-items: center; justify-content: space-between; margin: 3px 0; }
+.route-card__label { font-size: 15px; color: var(--soil); }
+.route-card__value { font-size: 15px; color: var(--charcoal); -unity-font-style: bold; }
+.route-card__distance-bar { max-width: 90px; height: 10px; margin-left: 8px; }
+.route-card__obstacles { font-size: 13px; color: var(--maple-red); -unity-text-align: middle-right; }
+.route-card__traits { margin-top: 8px; padding-top: 6px; border-top-width: 1px; border-color: var(--soil); }
+.route-card__trait { font-size: 17px; color: var(--maple-red); -unity-font-style: bold; }
+.route-card__trait-description { font-size: 13px; color: var(--soil); white-space: normal; }
+.route-card__stamp { position: absolute; top: 40%; left: 30px; right: 30px; font-size: 40px; color: var(--maple-red); border-width: 4px; border-color: var(--maple-red); border-radius: 8px; -unity-text-align: middle-center; rotate: -12deg; opacity: 0; -unity-font-style: bold; }
+.route-card--stamped .route-card__stamp { opacity: 1; }
+
+/* Night */
+.night__trait-message { font-size: 22px; color: var(--harvest-gold); -unity-text-align: middle-center; margin: 4px; }
+.meter-row { flex-direction: row; align-items: center; width: 520px; margin: 6px 0; }
+.meter-label { width: 140px; font-size: 22px; color: var(--chinstrap); }
+
+/* Results */
+.results__map { width: 420px; height: 360px; background-color: var(--paper-bg); border-radius: 14px; padding: 10px; margin: 12px; }
+.results__stats { margin: 12px; }

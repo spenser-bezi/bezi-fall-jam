@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79ba28808d2e14cf49237c6d8bc5e1bd, type: 3}
+  m_Name: ResourceBalance
+  m_EditorClassIdentifier: FallIsLife::FallIsLife.Data.ResourceBalance
+  maxMeter: 100
+  startingFood: 100
+  startingWater: 100
+  baseFoodDrain: 0.45
+  baseWaterDrain: 0.45
+  headwindFoodMultiplier: 1.25
+  headwindWaterMultiplier: 1
+  tailwindFoodMultiplier: 0.85
+  tailwindWaterMultiplier: 0.85
+  highBandFoodMultiplier: 1
+  highBandWaterMultiplier: 1.3
+  tightenFoodMultiplier: 1.5
+  tightenWaterMultiplier: 1
+  stormFoodMultiplier: 2
+  stormWaterMultiplier: 2
+  starvationLossInterval: 3

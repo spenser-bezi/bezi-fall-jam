@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <Style src="Theme.uss" />
+    <ui:VisualElement name="main-menu" class="screen screen--center">
+        <ui:VisualElement class="panel" style="align-items: center;">
+            <ui:Label text="Fall is Life" class="title" />
+            <ui:Label text="Lead your flock south for the winter" class="subtitle" />
+            <ui:Button name="start-button" text="Start Migration" class="button" />
+            <ui:Button name="quit-button" text="Quit" class="button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

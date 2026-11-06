@@ -1,0 +1,24 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <Style src="Theme.uss" />
+    <ui:VisualElement name="results" class="screen screen--center">
+        <ui:VisualElement class="panel" style="align-items: center;">
+            <ui:Label name="results-title" text="Results" class="title" style="font-size: 44px;" />
+            <ui:Label name="results-subtitle" text="" class="subtitle" />
+            <ui:VisualElement name="stars" class="star-row" />
+            <ui:VisualElement style="flex-direction: row;">
+                <ui:VisualElement name="route-map-container" class="results__map" />
+                <ui:VisualElement class="results__stats">
+                    <ui:Label name="arrived-label" text="Geese arrived" class="body-text" />
+                    <ui:Label name="lost-collisions" text="Lost to collisions" class="body-text" />
+                    <ui:Label name="lost-hunger" text="Lost to hunger" class="body-text" />
+                    <ui:Label name="lost-thirst" text="Lost to thirst" class="body-text" />
+                    <ui:Label name="snacks-label" text="Snacks eaten" class="body-text" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement class="button-row">
+                <ui:Button name="play-again-button" text="Fly Again" class="button" />
+                <ui:Button name="menu-button" text="Main Menu" class="button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61110a2290f744b709e8221d45194645, type: 3}
+  m_Name: RouteMap_Main
+  m_EditorClassIdentifier: FallIsLife::FallIsLife.Data.RouteMapData
+  startStop: {fileID: 11400000, guid: 3e58afb9f2491455d985dbc922a92838, type: 2}
+  destinationStop: {fileID: 11400000, guid: 00fae10b8e50a4b64b4357fce45f7fc8, type: 2}
+  allStops:
+  - {fileID: 11400000, guid: 3e58afb9f2491455d985dbc922a92838, type: 2}
+  - {fileID: 11400000, guid: fd3a873cc0f7e4ce191b39d43ff9859c, type: 2}
+  - {fileID: 11400000, guid: e24157a8b942a400fab2e2292b649a1c, type: 2}
+  - {fileID: 11400000, guid: 388ad8101f2674c75a213e77c0564207, type: 2}
+  - {fileID: 11400000, guid: ce0a21fd373b54d9f8eb9ceac66eb879, type: 2}
+  - {fileID: 11400000, guid: 807c3099c788646a1a256364b7f3cff1, type: 2}
+  - {fileID: 11400000, guid: aae4bc007d3c54bcc80b1fc9bcb6bcb1, type: 2}
+  - {fileID: 11400000, guid: 78e10f7b1d62d485b9a51d8f5da01c8d, type: 2}
+  - {fileID: 11400000, guid: 980cda115d7bd42238fda211181c0476, type: 2}
+  - {fileID: 11400000, guid: 00fae10b8e50a4b64b4357fce45f7fc8, type: 2}

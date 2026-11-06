@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8737290507063847501
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534460367786852075}
+  - component: {fileID: 107591604285018910}
+  - component: {fileID: 3117617627860263379}
+  - component: {fileID: 502752942523773185}
+  m_Layer: 0
+  m_Name: GameSystems
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &534460367786852075
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8737290507063847501}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &107591604285018910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8737290507063847501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7920d8f84910e42a086fa2de7acc3e82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FallIsLife::FallIsLife.Core.GameFlowManager
+  routeMap: {fileID: 11400000, guid: b376215e0d5254b5cbc4d1fb662d013d, type: 2}
+  flockBalance: {fileID: 11400000, guid: f9168c0c495ac4130990d5c61cf67df9, type: 2}
+  resourceBalance: {fileID: 11400000, guid: 51ca9f45792fd4973946ad8ece62447c, type: 2}
+  debugNextStop: {fileID: 11400000, guid: fd3a873cc0f7e4ce191b39d43ff9859c, type: 2}
+--- !u!114 &3117617627860263379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8737290507063847501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 697b989d6a2f34087b85f8abf24fe5c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FallIsLife::FallIsLife.Audio.AudioManager
+  sfxLibrary: {fileID: 11400000, guid: 87a5da8ff9009474dbbf02ae0c9ffa76, type: 2}
+  musicLibrary: {fileID: 11400000, guid: db4797b8a83bb42278f2131c1146898e, type: 2}
+  musicVolume: 0.6
+  sfxVolume: 0.9
+  minHonkPitch: 0.9
+  maxHonkPitch: 1.15
+--- !u!81 &502752942523773185
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8737290507063847501}
+  m_Enabled: 1

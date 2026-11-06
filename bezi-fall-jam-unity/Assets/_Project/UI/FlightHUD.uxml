@@ -1,0 +1,45 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <Style src="Theme.uss" />
+    <ui:VisualElement name="flight-hud" class="hud" picking-mode="Ignore">
+        <ui:VisualElement name="marker-layer" class="marker-layer" picking-mode="Ignore" />
+        <ui:VisualElement picking-mode="Ignore">
+            <ui:VisualElement class="hud__bar" picking-mode="Ignore">
+                <ui:Label name="flight-code" text="FLIGHT HONK-01" class="hud__text hud__accent" />
+                <ui:Label name="route-label" text="From -&gt; To" class="hud__text" />
+            </ui:VisualElement>
+            <ui:VisualElement class="hud__bar" style="margin-top: 6px;" picking-mode="Ignore">
+                <ui:VisualElement class="hud__row" picking-mode="Ignore">
+                    <ui:Label name="altitude-label" text="ALT 0 ft" class="hud__text" />
+                    <ui:Label name="band-label" text="LOW" class="hud__text hud__accent" />
+                    <ui:Label name="speed-label" text="GS 0 mph" class="hud__text" />
+                    <ui:Label name="eta-label" text="ETA 0:00" class="hud__text" />
+                </ui:VisualElement>
+                <ui:VisualElement class="bar" style="max-width: 420px;" picking-mode="Ignore">
+                    <ui:VisualElement name="progress-fill" class="bar__fill bar__fill--progress" style="width: 0%;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:Label name="traffic-warning" text="[!] TRAFFIC -&gt;" class="hud__warning hidden" />
+        <ui:VisualElement class="hud__bar" picking-mode="Ignore">
+            <ui:VisualElement class="hud__row" picking-mode="Ignore">
+                <ui:Label name="geese-label" text="GEESE x 12" class="hud__text" />
+                <ui:VisualElement name="geese-icons" class="goose-row" picking-mode="Ignore" />
+            </ui:VisualElement>
+            <ui:VisualElement class="hud__row" picking-mode="Ignore">
+                <ui:VisualElement class="hud__meter" picking-mode="Ignore">
+                    <ui:Label text="FOOD" class="hud__text" />
+                    <ui:VisualElement class="bar" picking-mode="Ignore">
+                        <ui:VisualElement name="food-fill" class="bar__fill bar__fill--food" style="width: 100%;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement class="hud__meter" picking-mode="Ignore">
+                    <ui:Label text="WATER" class="hud__text" />
+                    <ui:VisualElement class="bar" picking-mode="Ignore">
+                        <ui:VisualElement name="water-fill" class="bar__fill bar__fill--water" style="width: 100%;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:Label name="wind-label" text="Wind - Calm" class="hud__text" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

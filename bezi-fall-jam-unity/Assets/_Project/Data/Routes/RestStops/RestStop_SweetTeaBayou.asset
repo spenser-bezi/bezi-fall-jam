@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c9860691d0a74111ba3da82d2a9dbf9, type: 3}
+  m_Name: RestStop_SweetTeaBayou
+  m_EditorClassIdentifier: FallIsLife::FallIsLife.Data.RestStopData
+  displayName: Sweet Tea Bayou
+  subtitle: 'Final approach: warm water, journey''s end'
+  row: 4
+  postcard: {fileID: 0}
+  foodCapacity: 0
+  waterCapacity: 0
+  recruitsOnArrival: 0
+  nextStops: []
+  leg:
+    distanceMeters: 2200
+    windSpeed: 0
+    weather: 1
+    hazardLevel: 3
+    snackDensity: 2
+    lostGeeseCount: 2
+    biomes:
+    - biome: {fileID: 11400000, guid: b5dbad95254c643409d2933b443d0372, type: 2}
+      weight: 3
+    - biome: {fileID: 11400000, guid: 75c3b0ce323ee4a81927aa36c740c6a8, type: 2}
+      weight: 3
+    - biome: {fileID: 11400000, guid: 43e5f620961b84ebda4017ac548c3961, type: 2}
+      weight: 2
+    - biome: {fileID: 11400000, guid: 4037435c328cb407aa1aada363cb45f6, type: 2}
+      weight: 1
+    - biome: {fileID: 11400000, guid: 72710cbeef82244ce92174f259661861, type: 2}
+      weight: 1
+    - biome: {fileID: 11400000, guid: 5b55ba0fc73f8463895efe5081d25b1c, type: 2}
+      weight: 1
+    traits:
+    - {fileID: 11400000, guid: a0b38da624ab84041b16bca44fb12340, type: 2}

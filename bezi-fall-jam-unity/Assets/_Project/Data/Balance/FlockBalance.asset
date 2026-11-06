@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78f708d9a657b4c7897f25f7c6ecc451, type: 3}
+  m_Name: FlockBalance
+  m_EditorClassIdentifier: FallIsLife::FallIsLife.Data.FlockBalance
+  startingFlockSize: 12
+  maxFlockSize: 21
+  wideLateralSpacing: 2.2
+  wideBackSpacing: 1.8
+  tightenSpacingMultiplier: 0.45
+  spacingSmoothTime: 0.3
+  followerSmoothTime: 0.25
+  honkTapMaxDuration: 0.2
+  stragglerDuration: 5
+  honkRecallRadius: 25
+  proximityRecallRadius: 6
+  stragglerDriftBackSpeed: 3
+  stragglerDriftOutSpeed: 1.5
+  leaderHitStragglerCount: 2
+  leaveDuration: 3
+  leaveSpeed: 8
+  recruitSpawnBackDistance: 15
+  twoStarMinGeese: 8
+  maxStars: 3

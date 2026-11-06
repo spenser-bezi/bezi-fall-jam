@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4cf6a5989d99426b8bfc26a43b2a99f, type: 3}
+  m_Name: PickupDef_LostGoose
+  m_EditorClassIdentifier: FallIsLife::FallIsLife.Data.PickupDefinition
+  prefab: {fileID: 7893471042366578238, guid: ca832b724ca2f47e3b8415f0968ec6ec, type: 3}
+  type: 2
+  band: 1
+  amount: 1
+  weight: 0
+  groundAnchored: 0

@@ -1,0 +1,64 @@
+{
+    "version": 1,
+    "name": "FallIsLifeControls",
+    "maps": [
+        {
+            "name": "Flight",
+            "id": "a1f0c3d2-5b4e-4f61-9a87-0c1d2e3f4a50",
+            "actions": [
+                { "name": "Steer", "type": "Value", "id": "a1f0c3d2-5b4e-4f61-9a87-0c1d2e3f4a51", "expectedControlType": "Vector2", "processors": "", "interactions": "", "initialStateCheck": true },
+                { "name": "Honk", "type": "Button", "id": "a1f0c3d2-5b4e-4f61-9a87-0c1d2e3f4a52", "expectedControlType": "Button", "processors": "", "interactions": "", "initialStateCheck": false },
+                { "name": "Pause", "type": "Button", "id": "a1f0c3d2-5b4e-4f61-9a87-0c1d2e3f4a53", "expectedControlType": "Button", "processors": "", "interactions": "", "initialStateCheck": false }
+            ],
+            "bindings": [
+                { "name": "WASD", "id": "b2e1d4c3-6a5f-4072-8b98-1d2e3f4a5b60", "path": "2DVector", "interactions": "", "processors": "", "groups": "", "action": "Steer", "isComposite": true, "isPartOfComposite": false },
+                { "name": "up", "id": "b2e1d4c3-6a5f-4072-8b98-1d2e3f4a5b61", "path": "<Keyboard>/w", "interactions": "", "processors": "", "groups": "", "action": "Steer", "isComposite": false, "isPartOfComposite": true },
+                { "name": "down", "id": "b2e1d4c3-6a5f-4072-8b98-1d2e3f4a5b62", "path": "<Keyboard>/s", "interactions": "", "processors": "", "groups": "", "action": "Steer", "isComposite": false, "isPartOfComposite": true },
+                { "name": "left", "id": "b2e1d4c3-6a5f-4072-8b98-1d2e3f4a5b63", "path": "<Keyboard>/a", "interactions": "", "processors": "", "groups": "", "action": "Steer", "isComposite": false, "isPartOfComposite": true },
+                { "name": "right", "id": "b2e1d4c3-6a5f-4072-8b98-1d2e3f4a5b64", "path": "<Keyboard>/d", "interactions": "", "processors": "", "groups": "", "action": "Steer", "isComposite": false, "isPartOfComposite": true },
+                { "name": "Arrows", "id": "b2e1d4c3-6a5f-4072-8b98-1d2e3f4a5b65", "path": "2DVector", "interactions": "", "processors": "", "groups": "", "action": "Steer", "isComposite": true, "isPartOfComposite": false },
+                { "name": "up", "id": "b2e1d4c3-6a5f-4072-8b98-1d2e3f4a5b66", "path": "<Keyboard>/upArrow", "interactions": "", "processors": "", "groups": "", "action": "Steer", "isComposite": false, "isPartOfComposite": true },
+                { "name": "down", "id": "b2e1d4c3-6a5f-4072-8b98-1d2e3f4a5b67", "path": "<Keyboard>/downArrow", "interactions": "", "processors": "", "groups": "", "action": "Steer", "isComposite": false, "isPartOfComposite": true },
+                { "name": "left", "id": "b2e1d4c3-6a5f-4072-8b98-1d2e3f4a5b68", "path": "<Keyboard>/leftArrow", "interactions": "", "processors": "", "groups": "", "action": "Steer", "isComposite": false, "isPartOfComposite": true },
+                { "name": "right", "id": "b2e1d4c3-6a5f-4072-8b98-1d2e3f4a5b69", "path": "<Keyboard>/rightArrow", "interactions": "", "processors": "", "groups": "", "action": "Steer", "isComposite": false, "isPartOfComposite": true },
+                { "name": "", "id": "b2e1d4c3-6a5f-4072-8b98-1d2e3f4a5b6a", "path": "<Gamepad>/leftStick", "interactions": "", "processors": "", "groups": "", "action": "Steer", "isComposite": false, "isPartOfComposite": false },
+                { "name": "", "id": "b2e1d4c3-6a5f-4072-8b98-1d2e3f4a5b6b", "path": "<Keyboard>/space", "interactions": "", "processors": "", "groups": "", "action": "Honk", "isComposite": false, "isPartOfComposite": false },
+                { "name": "", "id": "b2e1d4c3-6a5f-4072-8b98-1d2e3f4a5b6c", "path": "<Gamepad>/buttonSouth", "interactions": "", "processors": "", "groups": "", "action": "Honk", "isComposite": false, "isPartOfComposite": false },
+                { "name": "", "id": "b2e1d4c3-6a5f-4072-8b98-1d2e3f4a5b6d", "path": "<Keyboard>/escape", "interactions": "", "processors": "", "groups": "", "action": "Pause", "isComposite": false, "isPartOfComposite": false },
+                { "name": "", "id": "b2e1d4c3-6a5f-4072-8b98-1d2e3f4a5b6e", "path": "<Gamepad>/start", "interactions": "", "processors": "", "groups": "", "action": "Pause", "isComposite": false, "isPartOfComposite": false }
+            ]
+        },
+        {
+            "name": "UI",
+            "id": "c3d2e5f4-7b60-4183-9ca9-2e3f4a5b6c70",
+            "actions": [
+                { "name": "Navigate", "type": "PassThrough", "id": "c3d2e5f4-7b60-4183-9ca9-2e3f4a5b6c71", "expectedControlType": "Vector2", "processors": "", "interactions": "", "initialStateCheck": false },
+                { "name": "Submit", "type": "Button", "id": "c3d2e5f4-7b60-4183-9ca9-2e3f4a5b6c72", "expectedControlType": "Button", "processors": "", "interactions": "", "initialStateCheck": false },
+                { "name": "Cancel", "type": "Button", "id": "c3d2e5f4-7b60-4183-9ca9-2e3f4a5b6c73", "expectedControlType": "Button", "processors": "", "interactions": "", "initialStateCheck": false },
+                { "name": "Point", "type": "PassThrough", "id": "c3d2e5f4-7b60-4183-9ca9-2e3f4a5b6c74", "expectedControlType": "Vector2", "processors": "", "interactions": "", "initialStateCheck": true },
+                { "name": "Click", "type": "PassThrough", "id": "c3d2e5f4-7b60-4183-9ca9-2e3f4a5b6c75", "expectedControlType": "Button", "processors": "", "interactions": "", "initialStateCheck": true }
+            ],
+            "bindings": [
+                { "name": "", "id": "d4e3f605-8c71-4294-adba-3f4a5b6c7d80", "path": "<Gamepad>/leftStick", "interactions": "", "processors": "", "groups": "", "action": "Navigate", "isComposite": false, "isPartOfComposite": false },
+                { "name": "", "id": "d4e3f605-8c71-4294-adba-3f4a5b6c7d81", "path": "<Gamepad>/dpad", "interactions": "", "processors": "", "groups": "", "action": "Navigate", "isComposite": false, "isPartOfComposite": false },
+                { "name": "Arrows", "id": "d4e3f605-8c71-4294-adba-3f4a5b6c7d82", "path": "2DVector", "interactions": "", "processors": "", "groups": "", "action": "Navigate", "isComposite": true, "isPartOfComposite": false },
+                { "name": "up", "id": "d4e3f605-8c71-4294-adba-3f4a5b6c7d83", "path": "<Keyboard>/upArrow", "interactions": "", "processors": "", "groups": "", "action": "Navigate", "isComposite": false, "isPartOfComposite": true },
+                { "name": "down", "id": "d4e3f605-8c71-4294-adba-3f4a5b6c7d84", "path": "<Keyboard>/downArrow", "interactions": "", "processors": "", "groups": "", "action": "Navigate", "isComposite": false, "isPartOfComposite": true },
+                { "name": "left", "id": "d4e3f605-8c71-4294-adba-3f4a5b6c7d85", "path": "<Keyboard>/leftArrow", "interactions": "", "processors": "", "groups": "", "action": "Navigate", "isComposite": false, "isPartOfComposite": true },
+                { "name": "right", "id": "d4e3f605-8c71-4294-adba-3f4a5b6c7d86", "path": "<Keyboard>/rightArrow", "interactions": "", "processors": "", "groups": "", "action": "Navigate", "isComposite": false, "isPartOfComposite": true },
+                { "name": "", "id": "d4e3f605-8c71-4294-adba-3f4a5b6c7d87", "path": "<Keyboard>/enter", "interactions": "", "processors": "", "groups": "", "action": "Submit", "isComposite": false, "isPartOfComposite": false },
+                { "name": "", "id": "d4e3f605-8c71-4294-adba-3f4a5b6c7d88", "path": "<Keyboard>/numpadEnter", "interactions": "", "processors": "", "groups": "", "action": "Submit", "isComposite": false, "isPartOfComposite": false },
+                { "name": "", "id": "d4e3f605-8c71-4294-adba-3f4a5b6c7d89", "path": "<Gamepad>/buttonSouth", "interactions": "", "processors": "", "groups": "", "action": "Submit", "isComposite": false, "isPartOfComposite": false },
+                { "name": "", "id": "d4e3f605-8c71-4294-adba-3f4a5b6c7d8a", "path": "<Keyboard>/escape", "interactions": "", "processors": "", "groups": "", "action": "Cancel", "isComposite": false, "isPartOfComposite": false },
+                { "name": "", "id": "d4e3f605-8c71-4294-adba-3f4a5b6c7d8b", "path": "<Gamepad>/buttonEast", "interactions": "", "processors": "", "groups": "", "action": "Cancel", "isComposite": false, "isPartOfComposite": false },
+                { "name": "", "id": "d4e3f605-8c71-4294-adba-3f4a5b6c7d8c", "path": "<Mouse>/position", "interactions": "", "processors": "", "groups": "", "action": "Point", "isComposite": false, "isPartOfComposite": false },
+                { "name": "", "id": "d4e3f605-8c71-4294-adba-3f4a5b6c7d8d", "path": "<Pen>/position", "interactions": "", "processors": "", "groups": "", "action": "Point", "isComposite": false, "isPartOfComposite": false },
+                { "name": "", "id": "d4e3f605-8c71-4294-adba-3f4a5b6c7d8e", "path": "<Touchscreen>/touch*/position", "interactions": "", "processors": "", "groups": "", "action": "Point", "isComposite": false, "isPartOfComposite": false },
+                { "name": "", "id": "d4e3f605-8c71-4294-adba-3f4a5b6c7d8f", "path": "<Mouse>/leftButton", "interactions": "", "processors": "", "groups": "", "action": "Click", "isComposite": false, "isPartOfComposite": false },
+                { "name": "", "id": "d4e3f605-8c71-4294-adba-3f4a5b6c7d90", "path": "<Pen>/tip", "interactions": "", "processors": "", "groups": "", "action": "Click", "isComposite": false, "isPartOfComposite": false },
+                { "name": "", "id": "d4e3f605-8c71-4294-adba-3f4a5b6c7d91", "path": "<Touchscreen>/touch*/press", "interactions": "", "processors": "", "groups": "", "action": "Click", "isComposite": false, "isPartOfComposite": false }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

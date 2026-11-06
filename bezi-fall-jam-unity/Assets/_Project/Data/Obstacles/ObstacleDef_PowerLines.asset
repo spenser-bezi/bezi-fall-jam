@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d889bfb15d90f4db98acf83f8d173937, type: 3}
+  m_Name: ObstacleDef_PowerLines
+  m_EditorClassIdentifier: FallIsLife::FallIsLife.Data.ObstacleDefinition
+  prefab: {fileID: 8969487455947944917, guid: 095f4486a83a74a1495b351769c374b1, type: 3}
+  category: 3
+  band: 0
+  weight: 1.5
+  minHazardLevel: 2
+  warnsOnHud: 0
+  groundAnchored: 1

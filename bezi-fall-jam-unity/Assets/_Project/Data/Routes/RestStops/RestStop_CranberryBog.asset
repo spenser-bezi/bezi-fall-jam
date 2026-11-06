@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c9860691d0a74111ba3da82d2a9dbf9, type: 3}
+  m_Name: RestStop_CranberryBog
+  m_EditorClassIdentifier: FallIsLife::FallIsLife.Data.RestStopData
+  displayName: Cranberry Bog
+  subtitle: Thunder and tart berries
+  row: 3
+  postcard: {fileID: 0}
+  foodCapacity: 14
+  waterCapacity: 14
+  recruitsOnArrival: 0
+  nextStops:
+  - {fileID: 11400000, guid: 00fae10b8e50a4b64b4357fce45f7fc8, type: 2}
+  leg:
+    distanceMeters: 2000
+    windSpeed: -2
+    weather: 3
+    hazardLevel: 3
+    snackDensity: 2
+    lostGeeseCount: 2
+    biomes:
+    - biome: {fileID: 11400000, guid: b5dbad95254c643409d2933b443d0372, type: 2}
+      weight: 3
+    - biome: {fileID: 11400000, guid: 75c3b0ce323ee4a81927aa36c740c6a8, type: 2}
+      weight: 2
+    - biome: {fileID: 11400000, guid: c0004f903e9c94626964b95eeaa0d7f0, type: 2}
+      weight: 2
+    - biome: {fileID: 11400000, guid: 4ea82ad3e08ab40018d760cbe4150ebb, type: 2}
+      weight: 2
+    traits:
+    - {fileID: 11400000, guid: ca06ee71d566e4ca0a6c698f6ac5604d, type: 2}

@@ -8,3 +8,6 @@ Desktop.ini
 *.blend[0-9][0-9]
 *.blend@
 __pycache__/
+*.blend1
+*.csproj
+*.slnx

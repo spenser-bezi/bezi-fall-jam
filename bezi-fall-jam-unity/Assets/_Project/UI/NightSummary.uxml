@@ -1,0 +1,24 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <Style src="Theme.uss" />
+    <ui:VisualElement name="night-summary" class="screen screen--center">
+        <ui:VisualElement class="panel" style="align-items: center;">
+            <ui:Label name="night-title" text="Day 1 complete" class="title" style="font-size: 42px;" />
+            <ui:Label name="night-subtitle" text="Resting at the lake" class="subtitle" />
+            <ui:VisualElement name="geese-icons" class="goose-row" style="justify-content: center; margin-bottom: 16px;" />
+            <ui:VisualElement class="meter-row">
+                <ui:Label name="food-value" text="FOOD 0" class="meter-label" />
+                <ui:VisualElement class="bar">
+                    <ui:VisualElement name="food-fill" class="bar__fill bar__fill--food" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement class="meter-row">
+                <ui:Label name="water-value" text="WATER 0" class="meter-label" />
+                <ui:VisualElement class="bar">
+                    <ui:VisualElement name="water-fill" class="bar__fill bar__fill--water" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="trait-messages" style="margin-top: 12px;" />
+            <ui:Button name="continue-button" text="Continue" class="button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

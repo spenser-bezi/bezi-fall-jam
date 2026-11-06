@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c9860691d0a74111ba3da82d2a9dbf9, type: 3}
+  m_Name: RestStop_AcornLagoon
+  m_EditorClassIdentifier: FallIsLife::FallIsLife.Data.RestStopData
+  displayName: Acorn Lagoon
+  subtitle: Nuts about new friends
+  row: 3
+  postcard: {fileID: 0}
+  foodCapacity: 10
+  waterCapacity: 12
+  recruitsOnArrival: 0
+  nextStops:
+  - {fileID: 11400000, guid: 00fae10b8e50a4b64b4357fce45f7fc8, type: 2}
+  leg:
+    distanceMeters: 2200
+    windSpeed: 2
+    weather: 1
+    hazardLevel: 2
+    snackDensity: 1
+    lostGeeseCount: 1
+    biomes:
+    - biome: {fileID: 11400000, guid: 43e5f620961b84ebda4017ac548c3961, type: 2}
+      weight: 4
+    - biome: {fileID: 11400000, guid: 75c3b0ce323ee4a81927aa36c740c6a8, type: 2}
+      weight: 2
+    - biome: {fileID: 11400000, guid: da8e68a01424a4c6fb7c58f6adebb26a, type: 2}
+      weight: 2
+    - biome: {fileID: 11400000, guid: 4ea82ad3e08ab40018d760cbe4150ebb, type: 2}
+      weight: 1
+    traits:
+    - {fileID: 11400000, guid: baab64b9a3b2a4d3ca97ea16c456916d, type: 2}

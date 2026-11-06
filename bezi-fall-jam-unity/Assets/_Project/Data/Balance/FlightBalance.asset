@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5b1aa2743ed44d7bbe7143447952bfc, type: 3}
+  m_Name: FlightBalance
+  m_EditorClassIdentifier: FallIsLife::FallIsLife.Data.FlightBalance
+  baseForwardSpeed: 14
+  maxWindModifier: 4
+  minForwardSpeed: 6
+  lateralSteerSpeed: 10
+  maxBankAngle: 25
+  bankSmoothTime: 0.15
+  climbSpeed: 6
+  minAltitude: 4
+  maxAltitude: 40
+  startAltitude: 8
+  lateralBound: 70
+  softWallWidth: 10
+  softWallPushSpeed: 14
+  lowBandMaxAltitude: 12
+  midBandMaxAltitude: 26
+  takeoffDuration: 2
+  landingDuration: 2
+  leaderWobbleDuration: 1.5
+  wobbleControlMultiplier: 0.4
+  wobbleRollAmplitude: 20
+  wobbleRollFrequency: 8
+  thermalDuration: 2

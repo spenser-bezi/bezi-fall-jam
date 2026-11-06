@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c9860691d0a74111ba3da82d2a9dbf9, type: 3}
+  m_Name: RestStop_HayrideHollow
+  m_EditorClassIdentifier: FallIsLife::FallIsLife.Data.RestStopData
+  displayName: Hayride Hollow
+  subtitle: Watch for crop dusters
+  row: 3
+  postcard: {fileID: 0}
+  foodCapacity: 12
+  waterCapacity: 10
+  recruitsOnArrival: 0
+  nextStops:
+  - {fileID: 11400000, guid: 00fae10b8e50a4b64b4357fce45f7fc8, type: 2}
+  leg:
+    distanceMeters: 1900
+    windSpeed: 0
+    weather: 0
+    hazardLevel: 3
+    snackDensity: 2
+    lostGeeseCount: 2
+    biomes:
+    - biome: {fileID: 11400000, guid: 7296bbdb31f9a4686acd814948371d22, type: 2}
+      weight: 3
+    - biome: {fileID: 11400000, guid: 453bb060809df492fbad9212dfad8b17, type: 2}
+      weight: 3
+    - biome: {fileID: 11400000, guid: 4037435c328cb407aa1aada363cb45f6, type: 2}
+      weight: 2
+    - biome: {fileID: 11400000, guid: 4ea82ad3e08ab40018d760cbe4150ebb, type: 2}
+      weight: 1
+    traits:
+    - {fileID: 11400000, guid: b3b629df966bb4a3bb33d128387a5f87, type: 2}

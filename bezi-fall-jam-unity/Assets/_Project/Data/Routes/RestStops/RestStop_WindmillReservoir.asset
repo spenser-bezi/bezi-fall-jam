@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c9860691d0a74111ba3da82d2a9dbf9, type: 3}
+  m_Name: RestStop_WindmillReservoir
+  m_EditorClassIdentifier: FallIsLife::FallIsLife.Data.RestStopData
+  displayName: Windmill Reservoir
+  subtitle: Mind the blades
+  row: 2
+  postcard: {fileID: 0}
+  foodCapacity: 9
+  waterCapacity: 18
+  recruitsOnArrival: 0
+  nextStops:
+  - {fileID: 11400000, guid: 78e10f7b1d62d485b9a51d8f5da01c8d, type: 2}
+  - {fileID: 11400000, guid: 980cda115d7bd42238fda211181c0476, type: 2}
+  leg:
+    distanceMeters: 2000
+    windSpeed: 4
+    weather: 1
+    hazardLevel: 2
+    snackDensity: 1
+    lostGeeseCount: 1
+    biomes:
+    - biome: {fileID: 11400000, guid: c7f41edcd8b894ffab991cf75c876721, type: 2}
+      weight: 4
+    - biome: {fileID: 11400000, guid: 75c3b0ce323ee4a81927aa36c740c6a8, type: 2}
+      weight: 2
+    - biome: {fileID: 11400000, guid: 453bb060809df492fbad9212dfad8b17, type: 2}
+      weight: 2
+    - biome: {fileID: 11400000, guid: 4ea82ad3e08ab40018d760cbe4150ebb, type: 2}
+      weight: 1
+    traits:
+    - {fileID: 11400000, guid: aa7b200d3837749c09c94b3c172e3c0a, type: 2}

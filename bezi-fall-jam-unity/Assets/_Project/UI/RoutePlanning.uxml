@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <Style src="Theme.uss" />
+    <ui:VisualElement name="route-planning" class="planning">
+        <ui:VisualElement name="route-map-container" class="planning__map" />
+        <ui:VisualElement class="planning__main">
+            <ui:VisualElement class="panel">
+                <ui:Label name="header-title" text="Night" class="title" style="font-size: 40px;" />
+                <ui:Label name="header-subtitle" text="Choose tomorrow's lake" class="subtitle" style="margin-bottom: 4px;" />
+                <ui:Label name="flock-status" text="GEESE x 12" class="body-text" style="-unity-text-align: middle-center;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="card-carousel" class="carousel" />
+            <ui:VisualElement class="button-row">
+                <ui:Button name="prev-button" text="&lt;" class="button button--small" />
+                <ui:Button name="confirm-button" text="Take Off" class="button" />
+                <ui:Button name="next-button" text="&gt;" class="button button--small" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
