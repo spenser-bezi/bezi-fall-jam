@@ -271,9 +271,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: FallIsLife::FallIsLife.World.HexTile
   biomeId: church_town
   propSockets:
-  - {fileID: 2219728703375021352}
-  - {fileID: 4749662625566407870}
-  - {fileID: 6379532861223649461}
+  - {fileID: 6813457539921730679}
   snackSockets:
   - {fileID: 4339828549919275848}
   - {fileID: 6859394870193788127}
@@ -334,6 +332,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 736ff2387097b4c08b17e9d101b48132, type: 3}
+--- !u!4 &6813457539921730679 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8926690298405553226, guid: 736ff2387097b4c08b17e9d101b48132, type: 3}
+  m_PrefabInstance: {fileID: 2697579277139728445}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7298225994603825093 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4622729310241579000, guid: 736ff2387097b4c08b17e9d101b48132, type: 3}

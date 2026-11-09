@@ -16,3 +16,5 @@ MonoBehaviour:
   tiles:
   - prefab: {fileID: 6446159345379089199, guid: 0838fb7e2322d476ba78eaae58f1d432, type: 3}
     weight: 1
+  - prefab: {fileID: 6446159345379089199, guid: 34dd8e7555e904929bf331eda003f818, type: 3}
+    weight: 1

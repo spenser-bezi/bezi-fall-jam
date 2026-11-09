@@ -1,0 +1,634 @@
+{
+  "size": 256,
+  "cellSize": 16,
+  "flat": {
+    "Pumpkin": [
+      {
+        "column": 0,
+        "row": 0
+      },
+      {
+        "column": 0,
+        "row": 1
+      },
+      {
+        "column": 0,
+        "row": 2
+      },
+      {
+        "column": 0,
+        "row": 3
+      }
+    ],
+    "MapleRed": [
+      {
+        "column": 1,
+        "row": 0
+      },
+      {
+        "column": 1,
+        "row": 1
+      },
+      {
+        "column": 1,
+        "row": 2
+      },
+      {
+        "column": 1,
+        "row": 3
+      }
+    ],
+    "Mustard": [
+      {
+        "column": 2,
+        "row": 0
+      },
+      {
+        "column": 2,
+        "row": 1
+      },
+      {
+        "column": 2,
+        "row": 2
+      },
+      {
+        "column": 2,
+        "row": 3
+      }
+    ],
+    "HarvestGold": [
+      {
+        "column": 3,
+        "row": 0
+      },
+      {
+        "column": 3,
+        "row": 1
+      },
+      {
+        "column": 3,
+        "row": 2
+      },
+      {
+        "column": 3,
+        "row": 3
+      }
+    ],
+    "Moss": [
+      {
+        "column": 4,
+        "row": 0
+      },
+      {
+        "column": 4,
+        "row": 1
+      },
+      {
+        "column": 4,
+        "row": 2
+      },
+      {
+        "column": 4,
+        "row": 3
+      }
+    ],
+    "Pine": [
+      {
+        "column": 5,
+        "row": 0
+      },
+      {
+        "column": 5,
+        "row": 1
+      },
+      {
+        "column": 5,
+        "row": 2
+      },
+      {
+        "column": 5,
+        "row": 3
+      }
+    ],
+    "LakeTeal": [
+      {
+        "column": 6,
+        "row": 0
+      },
+      {
+        "column": 6,
+        "row": 1
+      },
+      {
+        "column": 6,
+        "row": 2
+      },
+      {
+        "column": 6,
+        "row": 3
+      }
+    ],
+    "ShoreFoam": [
+      {
+        "column": 7,
+        "row": 0
+      },
+      {
+        "column": 7,
+        "row": 1
+      },
+      {
+        "column": 7,
+        "row": 2
+      },
+      {
+        "column": 7,
+        "row": 3
+      }
+    ],
+    "Soil": [
+      {
+        "column": 8,
+        "row": 0
+      },
+      {
+        "column": 8,
+        "row": 1
+      },
+      {
+        "column": 8,
+        "row": 2
+      },
+      {
+        "column": 8,
+        "row": 3
+      }
+    ],
+    "CreamSky": [
+      {
+        "column": 9,
+        "row": 0
+      },
+      {
+        "column": 9,
+        "row": 1
+      },
+      {
+        "column": 9,
+        "row": 2
+      },
+      {
+        "column": 9,
+        "row": 3
+      }
+    ],
+    "DuskLavender": [
+      {
+        "column": 10,
+        "row": 0
+      },
+      {
+        "column": 10,
+        "row": 1
+      },
+      {
+        "column": 10,
+        "row": 2
+      },
+      {
+        "column": 10,
+        "row": 3
+      }
+    ],
+    "NightIndigo": [
+      {
+        "column": 11,
+        "row": 0
+      },
+      {
+        "column": 11,
+        "row": 1
+      },
+      {
+        "column": 11,
+        "row": 2
+      },
+      {
+        "column": 11,
+        "row": 3
+      }
+    ],
+    "GooseCharcoal": [
+      {
+        "column": 12,
+        "row": 0
+      },
+      {
+        "column": 12,
+        "row": 1
+      },
+      {
+        "column": 12,
+        "row": 2
+      },
+      {
+        "column": 12,
+        "row": 3
+      }
+    ],
+    "Chinstrap": [
+      {
+        "column": 13,
+        "row": 0
+      },
+      {
+        "column": 13,
+        "row": 1
+      },
+      {
+        "column": 13,
+        "row": 2
+      },
+      {
+        "column": 13,
+        "row": 3
+      }
+    ],
+    "GooseTaupe": [
+      {
+        "column": 14,
+        "row": 0
+      },
+      {
+        "column": 14,
+        "row": 1
+      },
+      {
+        "column": 14,
+        "row": 2
+      },
+      {
+        "column": 14,
+        "row": 3
+      }
+    ],
+    "NavyRoof": [
+      {
+        "column": 15,
+        "row": 0
+      },
+      {
+        "column": 15,
+        "row": 1
+      },
+      {
+        "column": 15,
+        "row": 2
+      },
+      {
+        "column": 15,
+        "row": 3
+      }
+    ],
+    "WallCream": [
+      {
+        "column": 0,
+        "row": 4
+      },
+      {
+        "column": 0,
+        "row": 5
+      },
+      {
+        "column": 0,
+        "row": 6
+      },
+      {
+        "column": 0,
+        "row": 7
+      }
+    ],
+    "Stone": [
+      {
+        "column": 1,
+        "row": 4
+      },
+      {
+        "column": 1,
+        "row": 5
+      },
+      {
+        "column": 1,
+        "row": 6
+      },
+      {
+        "column": 1,
+        "row": 7
+      }
+    ],
+    "Wood": [
+      {
+        "column": 2,
+        "row": 4
+      },
+      {
+        "column": 2,
+        "row": 5
+      },
+      {
+        "column": 2,
+        "row": 6
+      },
+      {
+        "column": 2,
+        "row": 7
+      }
+    ],
+    "DryGrass": [
+      {
+        "column": 3,
+        "row": 4
+      },
+      {
+        "column": 3,
+        "row": 5
+      },
+      {
+        "column": 3,
+        "row": 6
+      },
+      {
+        "column": 3,
+        "row": 7
+      }
+    ],
+    "LightMoss": [
+      {
+        "column": 4,
+        "row": 4
+      },
+      {
+        "column": 4,
+        "row": 5
+      },
+      {
+        "column": 4,
+        "row": 6
+      },
+      {
+        "column": 4,
+        "row": 7
+      }
+    ],
+    "DeepWater": [
+      {
+        "column": 5,
+        "row": 4
+      },
+      {
+        "column": 5,
+        "row": 5
+      },
+      {
+        "column": 5,
+        "row": 6
+      },
+      {
+        "column": 5,
+        "row": 7
+      }
+    ],
+    "Slate": [
+      {
+        "column": 6,
+        "row": 4
+      },
+      {
+        "column": 6,
+        "row": 5
+      },
+      {
+        "column": 6,
+        "row": 6
+      },
+      {
+        "column": 6,
+        "row": 7
+      }
+    ],
+    "Cranberry": [
+      {
+        "column": 7,
+        "row": 4
+      },
+      {
+        "column": 7,
+        "row": 5
+      },
+      {
+        "column": 7,
+        "row": 6
+      },
+      {
+        "column": 7,
+        "row": 7
+      }
+    ],
+    "SkyBlue": [
+      {
+        "column": 8,
+        "row": 4
+      },
+      {
+        "column": 8,
+        "row": 5
+      },
+      {
+        "column": 8,
+        "row": 6
+      },
+      {
+        "column": 8,
+        "row": 7
+      }
+    ],
+    "Cloud": [
+      {
+        "column": 9,
+        "row": 4
+      },
+      {
+        "column": 9,
+        "row": 5
+      },
+      {
+        "column": 9,
+        "row": 6
+      },
+      {
+        "column": 9,
+        "row": 7
+      }
+    ],
+    "StormGray": [
+      {
+        "column": 10,
+        "row": 4
+      },
+      {
+        "column": 10,
+        "row": 5
+      },
+      {
+        "column": 10,
+        "row": 6
+      },
+      {
+        "column": 10,
+        "row": 7
+      }
+    ],
+    "Brick": [
+      {
+        "column": 11,
+        "row": 4
+      },
+      {
+        "column": 11,
+        "row": 5
+      },
+      {
+        "column": 11,
+        "row": 6
+      },
+      {
+        "column": 11,
+        "row": 7
+      }
+    ]
+  },
+  "strips": {
+    "SoilSkirt": {
+      "column": 0,
+      "top": [
+        "Soil",
+        0
+      ],
+      "bottom": [
+        "Soil",
+        3
+      ]
+    },
+    "FieldGold": {
+      "column": 1,
+      "top": [
+        "HarvestGold",
+        1
+      ],
+      "bottom": [
+        "Mustard",
+        2
+      ]
+    },
+    "FieldGreen": {
+      "column": 2,
+      "top": [
+        "LightMoss",
+        1
+      ],
+      "bottom": [
+        "Moss",
+        0
+      ]
+    },
+    "Plowed": {
+      "column": 3,
+      "top": [
+        "Soil",
+        1
+      ],
+      "bottom": [
+        "Soil",
+        2
+      ]
+    },
+    "Water": {
+      "column": 4,
+      "top": [
+        "LakeTeal",
+        0
+      ],
+      "bottom": [
+        "DeepWater",
+        2
+      ]
+    },
+    "Grass": {
+      "column": 5,
+      "top": [
+        "LightMoss",
+        0
+      ],
+      "bottom": [
+        "Moss",
+        2
+      ]
+    },
+    "FieldRows": {
+      "column": 6,
+      "pattern": [
+        [
+          "HarvestGold",
+          1
+        ],
+        [
+          "Mustard",
+          0
+        ]
+      ],
+      "bands": 10
+    },
+    "PlowedRows": {
+      "column": 7,
+      "pattern": [
+        [
+          "Soil",
+          1
+        ],
+        [
+          "Soil",
+          0
+        ]
+      ],
+      "bands": 10
+    },
+    "GreenRows": {
+      "column": 8,
+      "pattern": [
+        [
+          "LightMoss",
+          0
+        ],
+        [
+          "Moss",
+          2
+        ]
+      ],
+      "bands": 10
+    },
+    "CornRows": {
+      "column": 9,
+      "pattern": [
+        [
+          "DryGrass",
+          1
+        ],
+        [
+          "Mustard",
+          2
+        ]
+      ],
+      "bands": 10
+    }
+  }
+}

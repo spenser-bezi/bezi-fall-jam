@@ -52,8 +52,9 @@ MonoBehaviour:
   - {fileID: 1611978776451467937}
   - {fileID: 7214036452858799886}
   snackSockets:
-  - {fileID: 7005084642756342305}
-  - {fileID: 1638049914369029499}
+  - {fileID: 3709490932203282384}
+  - {fileID: 6096838015253258903}
+  - {fileID: 2156110799742713774}
 --- !u!1 &2669844356924033541
 GameObject:
   m_ObjectHideFlags: 0
@@ -334,6 +335,21 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d5028fdd409924057a50755349aee614, type: 3}
+--- !u!4 &2156110799742713774 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1780583885315824699, guid: d5028fdd409924057a50755349aee614, type: 3}
+  m_PrefabInstance: {fileID: 385599575345652629}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3709490932203282384 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3901012950009691205, guid: d5028fdd409924057a50755349aee614, type: 3}
+  m_PrefabInstance: {fileID: 385599575345652629}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6096838015253258903 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5892323607022944514, guid: d5028fdd409924057a50755349aee614, type: 3}
+  m_PrefabInstance: {fileID: 385599575345652629}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8441506883634572959 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8106388123254607114, guid: d5028fdd409924057a50755349aee614, type: 3}

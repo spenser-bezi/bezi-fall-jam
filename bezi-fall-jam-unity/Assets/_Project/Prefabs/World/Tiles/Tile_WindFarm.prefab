@@ -271,9 +271,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: FallIsLife::FallIsLife.World.HexTile
   biomeId: wind_farm
   propSockets:
-  - {fileID: 8289725387507180392}
-  - {fileID: 5098386665029471355}
-  - {fileID: 747598365027769763}
+  - {fileID: 8863067885969946916}
   snackSockets:
   - {fileID: 5924469682305017769}
   - {fileID: 452195213330484136}
@@ -337,5 +335,10 @@ PrefabInstance:
 --- !u!4 &6217248419495443946 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5982483687296812700, guid: c146133860b9749c9b84a60b1d5d0c21, type: 3}
+  m_PrefabInstance: {fileID: 382268619792792438}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8863067885969946916 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9201388403129451090, guid: c146133860b9749c9b84a60b1d5d0c21, type: 3}
   m_PrefabInstance: {fileID: 382268619792792438}
   m_PrefabAsset: {fileID: 0}
